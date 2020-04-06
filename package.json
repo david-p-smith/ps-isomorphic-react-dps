@@ -1,0 +1,20 @@
+{
+  "name": "ps-isomorphic-react-dps",
+  "version": "1.0.0",
+  "description": "Follow-along with Pluralsight - Isomorphic React by Daniel Stern.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/david-p-smith/ps-isomorphic-react-dps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/david-p-smith/ps-isomorphic-react-dps/issues"
+  },
+  "homepage": "https://github.com/david-p-smith/ps-isomorphic-react-dps#readme"
+}
