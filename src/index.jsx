@@ -6,10 +6,10 @@ import { Provider } from 'react-redux';
 
 const store = getStore();
 
-const render = (App) => {
+const render = (_App) => {
   ReactDOM.render(
     <Provider store={store} >
-      <App />
+      <_App />
     </Provider>,
     document.getElementById('AppContainer')
   )
