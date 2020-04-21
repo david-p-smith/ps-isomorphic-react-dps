@@ -4,7 +4,8 @@
   "description": "Follow-along with Pluralsight - Isomorphic React by Daniel Stern.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "cross-env NODE_ENV=development babel-node server --useLiveData=true"
   },
   "repository": {
     "type": "git",
