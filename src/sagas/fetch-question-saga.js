@@ -9,6 +9,6 @@ function* handleFetchQuestion({ question_id }) {
   const raw = yield fetch(`/api/questions/${question_id}`);
   const json = yield raw.json();
   const question = json.items[0];
-  console.log("Got questions...", questions);
+  console.log("Got questions...", question);
   yield put({ type: `FETCHED_QUESTION`, question });
 }
